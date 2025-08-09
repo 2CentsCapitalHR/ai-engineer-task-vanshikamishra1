@@ -1,0 +1,138 @@
+{
+  "process": "Company Incorporation",
+  "documents_uploaded": 1,
+  "required_documents": 5,
+  "missing_documents": [
+    "Articles of Association",
+    "Memorandum of Association",
+    "Board Resolution Template",
+    "UBO Declaration Form",
+    "Register of Members and Directors"
+  ],
+  "issues_found": [
+    {
+      "issue_id": "missing_clause::liability_of_members::Articles_of_Association_sample.docx",
+      "document_name": "Articles_of_Association_sample.docx",
+      "section": "Mandatory Clauses",
+      "issue_type": "missing_mandatory_clause",
+      "description": "Missing mandatory clause: liability of members",
+      "severity": "medium",
+      "adgm_reference": "The ADGM checklist for Private Companies requires a 'Liability of Members' clause to be explicitly defined in the Articles of Association.",
+      "suggestion": "Include a clause for 'liability of members' as per ADGM templates.",
+      "confidence": 0.78,
+      "location": null
+    },
+    {
+      "issue_id": "missing_clause::general_meetings::Articles_of_Association_sample.docx",
+      "document_name": "Articles_of_Association_sample.docx",
+      "section": "Mandatory Clauses",
+      "issue_type": "missing_mandatory_clause",
+      "description": "Missing mandatory clause: general meetings",
+      "severity": "medium",
+      "adgm_reference": "ADGM Companies Regulations outline the requirements for conducting general meetings, which must be included in the company's Articles.",
+      "suggestion": "Include a clause for 'general meetings' as per ADGM templates.",
+      "confidence": 0.78,
+      "location": null
+    },
+    {
+      "issue_id": "missing_clause::ADGM::Articles_of_Association_sample.docx",
+      "document_name": "Articles_of_Association_sample.docx",
+      "section": "Mandatory Clauses",
+      "issue_type": "missing_mandatory_clause",
+      "description": "Missing mandatory clause: ADGM",
+      "severity": "medium",
+      "adgm_reference": "The document must contain explicit references to 'Abu Dhabi Global Market' or 'ADGM' to establish its legal framework.",
+      "suggestion": "Include a clause for 'ADGM' as per ADGM templates.",
+      "confidence": 0.78,
+      "location": null
+    },
+    {
+      "issue_id": "adgm_terms_low::Articles_of_Association_sample.docx",
+      "document_name": "Articles_of_Association_sample.docx",
+      "section": "Terminology",
+      "issue_type": "insufficient_adgm_terms",
+      "description": "Document lacks explicit ADGM-specific terminology.",
+      "severity": "low",
+      "adgm_reference": "To ensure clarity and compliance, documents should incorporate standard ADGM terminology, such as 'ADGM Registrar' or 'FSRA'.",
+      "suggestion": "Add references to ADGM regulations/templates.",
+      "confidence": 0.6,
+      "location": null
+    }
+  ],
+  "per_document_reports": [
+    {
+      "document_name": "Articles_of_Association_sample.docx",
+      "document_type": "articles_of_association",
+      "overall_score": 73,
+      "issues": [
+        {
+          "issue_id": "missing_clause::liability_of_members::Articles_of_Association_sample.docx",
+          "document_name": "Articles_of_Association_sample.docx",
+          "section": "Mandatory Clauses",
+          "issue_type": "missing_mandatory_clause",
+          "description": "Missing mandatory clause: liability of members",
+          "severity": "medium",
+          "adgm_reference": "The ADGM checklist for Private Companies requires a 'Liability of Members' clause to be explicitly defined in the Articles of Association.",
+          "suggestion": "Include a clause for 'liability of members' as per ADGM templates.",
+          "confidence": 0.78,
+          "location": null
+        },
+        {
+          "issue_id": "missing_clause::general_meetings::Articles_of_Association_sample.docx",
+          "document_name": "Articles_of_Association_sample.docx",
+          "section": "Mandatory Clauses",
+          "issue_type": "missing_mandatory_clause",
+          "description": "Missing mandatory clause: general meetings",
+          "severity": "medium",
+          "adgm_reference": "ADGM Companies Regulations outline the requirements for conducting general meetings, which must be included in the company's Articles.",
+          "suggestion": "Include a clause for 'general meetings' as per ADGM templates.",
+          "confidence": 0.78,
+          "location": null
+        },
+        {
+          "issue_id": "missing_clause::ADGM::Articles_of_Association_sample.docx",
+          "document_name": "Articles_of_Association_sample.docx",
+          "section": "Mandatory Clauses",
+          "issue_type": "missing_mandatory_clause",
+          "description": "Missing mandatory clause: ADGM",
+          "severity": "medium",
+          "adgm_reference": "The document must contain explicit references to 'Abu Dhabi Global Market' or 'ADGM' to establish its legal framework.",
+          "suggestion": "Include a clause for 'ADGM' as per ADGM templates.",
+          "confidence": 0.78,
+          "location": null
+        },
+        {
+          "issue_id": "adgm_terms_low::Articles_of_Association_sample.docx",
+          "document_name": "Articles_of_Association_sample.docx",
+          "section": "Terminology",
+          "issue_type": "insufficient_adgm_terms",
+          "description": "Document lacks explicit ADGM-specific terminology.",
+          "severity": "low",
+          "adgm_reference": "To ensure clarity and compliance, documents should incorporate standard ADGM terminology, such as 'ADGM Registrar' or 'FSRA'.",
+          "suggestion": "Add references to ADGM regulations/templates.",
+          "confidence": 0.6,
+          "location": null
+        }
+      ],
+      "missing_clauses": [
+        "liability of members",
+        "general meetings",
+        "ADGM"
+      ],
+      "recommendations": [
+        "Add all mandatory clauses per ADGM templates.",
+        "Compare document against official ADGM templates.",
+        "Consider legal counsel review prior to submission."
+      ],
+      "processing_date": "2025-08-09T20:49:28.456869",
+      "validation_summary": {
+        "total_issues": 4,
+        "critical_issues": 0,
+        "high_issues": 0,
+        "medium_issues": 3,
+        "low_issues": 1
+      }
+    }
+  ],
+  "generated_at": "2025-08-09T20:49:28.456869"
+}
